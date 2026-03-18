@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,31 +12,35 @@
 <body>
 
     <nav>
-        <div class="logo-container">
-            <img src="TauLogo.png" alt="Tau Logo" class="nav-logo">
-            <div class="logo">MY PORTFOLIO<span>.</span></div>
-        </div>
-        
+    <div class="logo-container">
+        <img src="/TauLogo.png" alt="Tau Logo" class="nav-logo">
+        <div class="logo">MY PORTFOLIO<span>.</span></div>
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="toggle-container">
         <input type="checkbox" id="dark-mode-toggle" class="checkbox">
         <label for="dark-mode-toggle" class="switch">
-            <span class="fas fa-moon"></span>
+            <span class="fa fa-moon"></span>
         </label>
-
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    </div>
+</nav>
+        
 
     <section id="home" class="page">
         <div class="hero-content">
             <div class="profile-frame">
-                <img src="Me.png" alt="Adrian">
+                <img src="/Me.png" alt="Adrian">
             </div>
-            <h1>Welcome to My <span>Website</span></h1>
-            <p>I'm Adrian, and this is a look into my life and passions.</p>
+            <h1>Welcome to My <span>Portfolio</span></h1>
+            <p>I'm Adrian, and this is a look into My Personal Resume.</p>
             <a href="#about" class="scroll-indicator">Explore Down ↓</a>
         </div>
     </section>
@@ -44,43 +49,83 @@
         <div class="content-container">
             <h2>About Me</h2>
             <div class="glass-box">
-            <P>Hi!, My name is <b>Adrian R. Galasi</b>, 20 years old from Purok 4, Sta. Maria, Camiling, Tarlac. Currently I'm a second year student taking up <b>Bachelor of Science in Information Technology</b> at <b>Tarlac Agricultural University College of Engineering and Technology</b>.</P>
+            <P>Hi!, My name is <b>Adrian R. Galasi</b>, 20 years old from Purok 4, Sta. Maria, Camiling, Tarlac. I took up <b>Bachelor of Science in Information Technology</b> at <b>Tarlac Agricultural University College of Engineering and Technology</b>.</P>
                 <br>
-                <p>As a dedicated student of IT, I am committed to the principle that continuous learning is the essential foundation for professional success. I am particularly focused on refining my technical skills in <b>software development</b> and <b>coding</b>, frequently dedicating my personal time to researching emerging technologies and industry best practices.</p> 
+                <p>As a dedicated IT, I am committed to the principle that continuous learning is the essential foundation for professional success. I am particularly focused on refining my technical skills in <b>software development</b> and <b>coding</b>, frequently dedicating my personal time to researching emerging technologies and industry best practices.</p> 
                 <br>
-                <p>Beyond my technical studies, I am actively working on my interpersonal growth by stepping outside of my comfort zone to become a more effective communicator. My background in team-based activities, such as <b>basketball</b>, has instilled in me a strong sense of <b>collaboration and discipline</b>. Furthermore, my interest in <b>nature and travel</b> provides me with a balanced perspective and a deep appreciation for the world around me.
-                I am eager to apply my growing technical expertise and my willingness to learn to new challenges within the field of Information Technology.</p>
+                <p>Beyond technical proficiency, I have cultivated strong <b>interpersonal leadership and collaborative skills</b> through extensive experience in team-based environments. This background has instilled in me the discipline and adaptability required to excel in high-pressure, deadline-driven projects. I am eager to leverage my growing technical expertise and analytical mindset to contribute to innovative solutions and drive success within a professional IT organization."</p>
             <P>
     </section>
 
-    <section id="hobbies" class="page">
+    <section id="skills" class="page">
         <div class="content-container">
-            <h2>My Hobbies and Interest</h2>
+            <h2>Skills</h2>
             <div class="hobby-row">
                 <div class="hobby-card">
-                    <img src="Gaming.png" alt="Gaming">
-                    <h3>Gaming</h3>
+                    <img src="/Java.png" alt="Java">
+                    <h3>Java</h3>
                 </div>
                 <div class="hobby-card">
-                    <img src="Music.png" alt="Music">
-                    <h3>Music</h3>
+                    <img src="/HTML.png" alt="HTML">
+                    <h3>HTML</h3>
                 </div>
                 <div class="hobby-card">
-                    <img src="Basketball.png" alt="Basketball">
-                    <h3>Basketball</h3>
+                    <img src="/DataBasing.png" alt="DataBasing">
+                    <h3>Data Base</h3>
                 </div>
                 <div class="hobby-card">
-                    <img src="Photography.png" alt="Photography">
-                    <h4>Photography</h4>
+                    <img src="/Communication.png" alt="Communication">
+                    <h4>Communication</h4>
                 </div>
                 <div class="hobby-card">
-                    <img src="Travell.png" alt="Travell">
-                    <h5>Travell</h5>
+                    <img src="/Time.png" alt="Time">
+                    <h5>Time Management</h5>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="education" class="page">
+    <div class="content-container">
+        <h2>Education</h2>
+
+        <div class="education-group">
+            <h3 class="edu-label">College</h3>
+            <div class="edu-row">
+                <div class="hobby-card">
+                    <img src="/CET.png" alt="College">
+                    <h3>Tarlac Agricultural University - College of Engineering and Technology</h3>
+                </div>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="education-group">
+            <h3 class="edu-label">High School</h3>
+            <div class="edu-row">
+                <div class="hobby-card">
+                    <img src="/LS.png" alt="High School">
+                    <h3>Tarlac Agricultural University Laboratory School</h3>
+                </div>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="education-group">
+            <h3 class="edu-label">Elementary</h3>
+            <div class="edu-row">
+                <div class="hobby-card">
+                    <img src="/SMES.png" alt="Elementary">
+                    <h3>Sta. Maria Elementary School</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
     <section id="contact" class="page">
         <div class="content-container">
             <h2>Get In Touch</h2>
@@ -99,7 +144,10 @@
                     </a>
                 </div>
             </div>
-            <footer>&copy; 2026 Adrian Portfolio</footer>
+
+            <hr class="section-divider">
+            
+            <footer>&copy; 2026 Adrian Portfolio | All Rights Reserved</footer>
         </div>
     </section>
 
